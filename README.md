@@ -4,7 +4,7 @@ Sample API to get voltage data
 {"time":"22:18:09.712613","voltage":1688}
 <br><br>
 Open up a terminal<br>
-$ git clone https://github.com/chris050200/Core-App.git
+$ git clone https://github.com/chris050200/Core-App.git <br>
 $ pip install flask<br>
 $ pip install -U flask-cors<br>
 $ python voltageAPI.py<br>

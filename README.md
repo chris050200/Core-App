@@ -2,7 +2,7 @@
 Sample API to get voltage data
 <br>
 {"time":"22:18:09.712613","voltage":1688}
-<br>
+<br><br>
 Download voltageAPI.py
 <br>
 Open up a terminal<br>

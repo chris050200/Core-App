@@ -1,4 +1,5 @@
-# Core-App
+# Voltage Sample Data API 
+
 Sample API to get voltage data
 <br>
 {"time":"22:18:09.712613","voltage":1688}

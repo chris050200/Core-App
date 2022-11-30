@@ -3,9 +3,9 @@
 sample api
 
 Open up a terminal
-$ pip install flask
-$ pip install -U flask-cors
-$ python voltageAPI.py
+$ pip install flask<br>
+$ pip install -U flask-cors<br><br>
+$ python voltageAPI.py<br>
 
 then go to : http://127.0.0.1:5005/voltage and you should see a voltage sample
 or : http://127.0.0.1:5005/voltage2 for an array

@@ -2,6 +2,8 @@ from flask import Flask, jsonify
 from datetime import datetime
 import random
 from flask_cors import CORS
+from time import sleep
+
 
 app = Flask(__name__)
 CORS(app)
@@ -12,6 +14,7 @@ print(arr)
 # route for voltage. This will return a json with the format {"time":"22:08:25.379760","voltage":1685}
 @app.route('/voltage')
 def voltage() :
+    sleep(.001)
     arr = {'time': str(datetime.now().time()), 'voltage': random.randrange(1650, 1700)}
     return(jsonify(arr))
     
@@ -21,9 +24,15 @@ def voltage() :
 @app.route('/voltage2')
 def voltage2() :
     arr = {"data": [{'time': str(datetime.now().time()), 'voltage': random.randrange(1650, 1700)}]}
-    for i in range(250):
+    for i in range(25):
+        sleep(.001)
         arr['data'].append({'time': str(datetime.now().time()), 'voltage': random.randrange(1650, 1700)})
+    
     return jsonify(arr)
 
 if __name__ == '__main__':
     app.run(port=5005)
+    for i in range (50):
+        sleep(.001)
+        print({'time': str(datetime.now().time()), 'voltage': random.randrange(1650, 1700)})
+        

@@ -1,4 +1,4 @@
-# Voltage Sample Data API 
+# Voltage Sample Data
 
 Sample API to get voltage data
 <br>

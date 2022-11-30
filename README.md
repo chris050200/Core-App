@@ -6,7 +6,8 @@ sample api
 
 <br>
 Download voltageAPI.py
-</br>
+<br>
+<br>
 Open up a terminal<br>
 $ pip install flask<br>
 $ pip install -U flask-cors<br>

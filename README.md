@@ -1,12 +1,9 @@
 # Core-App
-
-sample api
-
+Sample API to get voltage data
+<br>
 {"time":"22:18:09.712613","voltage":1688}
-
 <br>
 Download voltageAPI.py
-<br>
 <br>
 Open up a terminal<br>
 $ pip install flask<br>
